@@ -1,21 +1,27 @@
 import os
 from fontTools.ttLib import TTFont
 
-workspace = os.environ.get(
-    "GITHUB_WORKSPACE", os.environ.get("HOME") + "/repos/woff-ci"
-)
 
-print("workspace: " + workspace)
+def generate_font(outputsDir, filename, flavor):
+    print("generating... " + filename.replace("ttf", flavor))
+    font = TTFont(outputsDir + filename)
+    font.flavor = flavor
+    font.save(outputsDir + filename.replace("ttf", flavor))
+    font.close()
 
-outputsDir = workspace + "/ci/outputs/"
 
-directory = os.fsencode(outputsDir)
+def main():
+    workspace = os.environ.get("GITHUB_WORKSPACE") or os.path.abspath(__file__).replace(
+        "/ci/scripts/main.py", ""
+    )
 
-for file in os.listdir(directory):
-    filename = os.fsdecode(file)
-    if filename.endswith(".ttf"):
-        print("generating... " + filename.replace(".ttf", ".woff"))
-        font = TTFont(outputsDir + filename)
-        font.flavor = "woff"
-        font.save(outputsDir + filename.replace(".ttf", ".woff"))
-        font.close()
+    outputsDir = workspace + "/ci/outputs/"
+
+    for file in os.listdir(os.fsencode(outputsDir)):
+        filename = os.fsdecode(file)
+        if filename.endswith(".ttf"):
+            generate_font(outputsDir, filename, "woff")
+
+
+if __name__ == "__main__":
+    main()
