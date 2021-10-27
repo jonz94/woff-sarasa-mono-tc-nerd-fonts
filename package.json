@@ -1,0 +1,29 @@
+{
+  "name": "serve-woff",
+  "version": "0.1.0",
+  "license": "Unlicense",
+  "author": "jonz94 <jody16888@gmail.com>",
+  "scripts": {
+    "build": "vue-tsc --noEmit && vite build",
+    "dev": "vite",
+    "format": "rustywind --write ./src",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "shiki": "^0.9.12",
+    "vue": "^3.2.20"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.11",
+    "prettier": "^2.4.1",
+    "prettier-plugin-organize-imports": "^2.3.4",
+    "prettier-plugin-packagejson": "^2.2.13",
+    "rustywind": "^0.12.2",
+    "tailwindcss": "^2.2.17",
+    "typescript": "^4.4.4",
+    "vite": "^2.6.12",
+    "vue-tsc": "^0.28.9"
+  }
+}

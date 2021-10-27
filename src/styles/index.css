@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Sarasa Mono TC Nerd Font' !important;
+}
+
+pre.shiki {
+  @apply p-8 rounded-lg text-xl;
+}

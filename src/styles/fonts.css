@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'Sarasa Mono TC Nerd Font';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/fonts/sarasa-mono-tc-extralight-nerd-font.woff');
+}
+
+@font-face {
+  font-family: 'Sarasa Mono TC Nerd Font';
+  font-style: italic;
+  font-weight: 200;
+  src: url('/fonts/sarasa-mono-tc-extralightitalic-nerd-font.woff');
+}
+
+@font-face {
+  font-family: 'Sarasa Mono TC Nerd Font';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/sarasa-mono-tc-light-nerd-font.woff');
+}
+
+@font-face {
+  font-family: 'Sarasa Mono TC Nerd Font';
+  font-style: italic;
+  font-weight: 300;
+  src: url('/fonts/sarasa-mono-tc-lightitalic-nerd-font.woff');
+}
+
+@font-face {
+  font-family: 'Sarasa Mono TC Nerd Font';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/sarasa-mono-tc-regular-nerd-font.woff');
+}
+
+@font-face {
+  font-family: 'Sarasa Mono TC Nerd Font';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/fonts/sarasa-mono-tc-italic-nerd-font.woff');
+}
+
+@font-face {
+  font-family: 'Sarasa Mono TC Nerd Font';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/sarasa-mono-tc-semibold-nerd-font.woff');
+}
+
+@font-face {
+  font-family: 'Sarasa Mono TC Nerd Font';
+  font-style: italic;
+  font-weight: 600;
+  src: url('/fonts/sarasa-mono-tc-semibolditalic-nerd-font.woff');
+}
+
+@font-face {
+  font-family: 'Sarasa Mono TC Nerd Font';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/sarasa-mono-tc-bold-nerd-font.woff');
+}
+
+@font-face {
+  font-family: 'Sarasa Mono TC Nerd Font';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/fonts/sarasa-mono-tc-bolditalic-nerd-font.woff');
+}
