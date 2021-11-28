@@ -17,7 +17,7 @@
     "@vitejs/plugin-vue": "^1.10.1",
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.4",
-    "prettier": "^2.4.1",
+    "prettier": "^2.5.0",
     "prettier-plugin-organize-imports": "^2.3.4",
     "prettier-plugin-packagejson": "^2.2.13",
     "rustywind": "^0.12.2",
