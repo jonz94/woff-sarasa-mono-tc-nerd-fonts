@@ -10,7 +10,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "shiki": "^0.9.12",
+    "shiki": "^0.9.13",
     "vue": "^3.2.21"
   },
   "devDependencies": {
