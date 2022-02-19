@@ -18,7 +18,10 @@
       main ±
   </span>
   <span style="background: #121212; color: #a7cb8b"></span>
-  <span class="w-[20ch]" style="background: #121212; color: #121212"></span>
+  <span
+    class="flex-auto lg:flex-initial min-w-[4ch] lg:w-[20ch]"
+    style="background: #121212; color: #121212"
+  ></span>
   <span style="background: #121212; color: #343a43"></span>
   <span class="pl-[1ch] pr-[2ch]" style="background: #343a43; color: #a7cb8b">
     

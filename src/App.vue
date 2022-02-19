@@ -6,7 +6,7 @@ import Usage from './components/Usage.vue'
 
 <template>
   <main
-    class="flex flex-col justify-center items-center p-8 space-y-8 min-h-screen"
+    class="flex flex-col justify-center items-center px-0 py-8 lg:px-8 space-y-8 min-h-screen"
   >
     <h1
       class="bg-black text-white p-4 flex flex-col items-center sm:flex-row text-3xl font-bold space-x-0 sm:space-x-[1ch]"
