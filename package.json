@@ -16,7 +16,7 @@
   "devDependencies": {
     "@types/tailwindcss": "^3.0.8",
     "@vitejs/plugin-vue": "^2.2.2",
-    "autoprefixer": "^10.4.0",
+    "autoprefixer": "^10.4.2",
     "postcss": "^8.4.5",
     "prettier": "^2.5.1",
     "prettier-plugin-organize-imports": "^2.3.4",
