@@ -6,7 +6,7 @@
   "scripts": {
     "build": "vue-tsc --noEmit && vite build",
     "dev": "vite",
-    "format": "rustywind --write ./src",
+    "format": "rustywind --write . && prettier --write .",
     "serve": "vite preview"
   },
   "dependencies": {
