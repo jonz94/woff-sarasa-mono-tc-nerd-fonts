@@ -90,7 +90,7 @@ body {
 }
 `
 
-  usage.value = highlighter.codeToHtml(code, 'css')
+  usage.value = highlighter.codeToHtml(code, { lang: 'css' })
 })
 </script>
 
