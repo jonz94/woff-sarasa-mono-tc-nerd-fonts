@@ -8,7 +8,15 @@ import Usage from './components/Usage.vue'
   <main
     class="flex flex-col justify-center items-center p-8 space-y-8 min-h-screen"
   >
-    <Title>Sarasa Mono TC ⨯ Nerd Fonts ⨯ WOFF Fonts</Title>
+    <h1
+      class="bg-black text-white p-4 flex flex-col items-center sm:flex-row text-3xl font-bold space-x-0 sm:space-x-[1ch]"
+    >
+      <span>Sarasa Mono TC</span>
+      <span>⨯</span>
+      <span>Nerd Fonts</span>
+      <span>⨯</span>
+      <span>WOFF Fonts</span>
+    </h1>
     <Title>Avaliable styles</Title>
     <div class="text-lg">
       <p class="font-extralight">extralight</p>
