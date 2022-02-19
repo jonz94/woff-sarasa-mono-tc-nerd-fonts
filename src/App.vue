@@ -35,4 +35,9 @@ import Usage from './components/Usage.vue'
     <Title>Usage</Title>
     <Usage />
   </main>
+  <footer>
+    <div class="p-4 text-center text-white">
+      <p>Built with ❤️ by jonz94</p>
+    </div>
+  </footer>
 </template>
