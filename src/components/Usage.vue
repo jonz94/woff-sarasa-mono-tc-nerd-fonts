@@ -4,16 +4,9 @@ import { onMounted, ref } from 'vue'
 
 const usage = ref('')
 
-onMounted(async () => {
-  setCDN('https://unpkg.com/shiki/')
-  const highlighter = await getHighlighter({
-    theme: 'one-dark-pro',
-    langs: ['css'],
-  })
+const baseUrl = window.location.href
 
-  const baseUrl = window.location.href
-
-  const code = `/* declare font face */
+const code = `/* declare font face */
 @font-face {
   font-family: 'Sarasa Mono TC Nerd Font';
   font-style: normal;
@@ -90,12 +83,32 @@ body {
 }
 `
 
+const maxLengthOfSingleLineOfCode = Math.max.apply(
+  null,
+  code.split('\n').map((line) => line.length),
+)
+
+onMounted(async () => {
+  setCDN('https://unpkg.com/shiki/')
+  const highlighter = await getHighlighter({
+    theme: 'one-dark-pro',
+    langs: ['css'],
+  })
+
   usage.value = highlighter.codeToHtml(code, { lang: 'css' })
 })
 </script>
 
 <template>
-  <div :class="usage ? 'hidden' : ''">spinner</div>
+  <div
+    class="w-screen self-baseline overflow-hidden lg:w-auto lg:self-center"
+    :class="usage ? 'hidden' : ''"
+  >
+    <pre
+      class="shiki"
+      :style="`width: calc(${maxLengthOfSingleLineOfCode}ch + 4rem )`"
+    ></pre>
+  </div>
   <div
     class="w-screen self-baseline overflow-hidden lg:w-auto lg:self-center"
     :class="usage ? '' : 'hidden'"
