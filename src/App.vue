@@ -6,10 +6,10 @@ import Usage from './components/Usage.vue'
 
 <template>
   <main
-    class="flex flex-col justify-center items-center px-0 py-8 lg:px-8 space-y-8 min-h-screen"
+    class="flex min-h-screen flex-col items-center justify-center space-y-8 px-0 py-8 lg:px-8"
   >
     <h1
-      class="bg-black text-white p-4 flex flex-col items-center sm:flex-row text-3xl font-bold space-x-0 sm:space-x-[1ch]"
+      class="flex flex-col items-center space-x-0 bg-black p-4 text-3xl font-bold text-white sm:flex-row sm:space-x-[1ch]"
     >
       <span>Sarasa Mono TC</span>
       <span>⨯</span>
@@ -20,15 +20,15 @@ import Usage from './components/Usage.vue'
     <Title>Avaliable styles</Title>
     <div class="text-lg">
       <p class="font-extralight">extralight</p>
-      <p class="italic font-extralight">extralight italic</p>
+      <p class="font-extralight italic">extralight italic</p>
       <p class="font-light">light</p>
-      <p class="italic font-light">light italic</p>
+      <p class="font-light italic">light italic</p>
       <p>normal</p>
       <p class="italic">italic</p>
       <p class="font-semibold">semibold</p>
-      <p class="italic font-semibold">semibold italic</p>
+      <p class="font-semibold italic">semibold italic</p>
       <p class="font-bold">bold</p>
-      <p class="italic font-bold">bold italic</p>
+      <p class="font-bold italic">bold italic</p>
     </div>
     <Title>Showcase</Title>
     <Terminal />

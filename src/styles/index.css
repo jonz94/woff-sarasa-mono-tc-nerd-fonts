@@ -7,5 +7,5 @@
 }
 
 pre.shiki {
-  @apply p-8 rounded-none lg:rounded-lg text-xl overflow-auto;
+  @apply overflow-auto rounded-none p-8 text-xl lg:rounded-lg;
 }

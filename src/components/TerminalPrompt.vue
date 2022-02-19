@@ -21,7 +21,7 @@
   <span class="pr-[2ch]" style="background: #a7cb8b; color: #343a43"> </span>
   <span style="background: #121212; color: #a7cb8b"></span>
   <span
-    class="flex-auto lg:flex-initial min-w-[4ch] lg:w-[20ch]"
+    class="min-w-[4ch] flex-auto lg:w-[20ch] lg:flex-initial"
     style="background: #121212; color: #121212"
   ></span>
   <span style="background: #121212; color: #343a43"></span>

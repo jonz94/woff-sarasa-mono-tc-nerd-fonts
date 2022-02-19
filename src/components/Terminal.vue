@@ -3,10 +3,10 @@ import Prompt from './TerminalPrompt.vue'
 </script>
 
 <template>
-  <div class="overflow-hidden w-screen lg:w-auto">
+  <div class="w-screen overflow-hidden lg:w-auto">
     <div class="overflow-auto">
       <div
-        class="min-w-max self-baseline lg:self-center flex flex-col p-2 h-64 text-xl leading-tight rounded-none lg:rounded"
+        class="flex h-64 min-w-max flex-col self-baseline rounded-none p-2 text-xl leading-tight lg:self-center lg:rounded"
         style="background: #121212"
       >
         <p class="inline-flex">

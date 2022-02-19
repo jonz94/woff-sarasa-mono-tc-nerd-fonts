@@ -97,7 +97,7 @@ body {
 <template>
   <div :class="usage ? 'hidden' : ''">spinner</div>
   <div
-    class="self-baseline lg:self-center overflow-hidden w-screen lg:w-auto"
+    class="w-screen self-baseline overflow-hidden lg:w-auto lg:self-center"
     :class="usage ? '' : 'hidden'"
     v-html="usage"
   ></div>
