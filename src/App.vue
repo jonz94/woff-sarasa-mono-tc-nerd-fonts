@@ -9,7 +9,7 @@ import Usage from './components/Usage.vue'
     class="flex min-h-screen flex-col items-center justify-center space-y-8 px-0 py-8 lg:px-8"
   >
     <h1
-      class="flex flex-col items-center space-x-0 bg-black p-4 text-3xl font-bold text-white sm:flex-row sm:space-x-[1ch]"
+      class="flex flex-col items-center space-x-0 bg-black p-4 text-3xl font-bold text-white dark:bg-white dark:text-black sm:flex-row sm:space-x-[1ch]"
     >
       <span>Sarasa Mono TC</span>
       <span>⨯</span>
