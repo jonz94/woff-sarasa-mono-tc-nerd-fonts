@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "shiki": "^0.10.1",
-    "vue": "^3.2.31"
+    "vue": "^3.2.33"
   },
   "devDependencies": {
     "@types/tailwindcss": "^3.0.10",
