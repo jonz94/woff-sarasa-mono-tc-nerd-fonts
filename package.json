@@ -18,7 +18,7 @@
     "@types/tailwindcss": "^3.0.10",
     "@vitejs/plugin-vue": "^2.3.3",
     "autoprefixer": "^10.4.7",
-    "postcss": "^8.4.6",
+    "postcss": "^8.4.13",
     "prettier": "^2.5.1",
     "prettier-plugin-packagejson": "^2.2.15",
     "prettier-plugin-tailwindcss": "^0.1.7",
