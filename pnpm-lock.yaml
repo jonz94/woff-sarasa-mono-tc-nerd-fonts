@@ -8,7 +8,7 @@ specifiers:
   prettier-plugin-packagejson: ^2.2.18
   prettier-plugin-tailwindcss: ^0.1.11
   shiki: ^0.10.1
-  tailwindcss: ^3.1.3
+  tailwindcss: ^3.1.4
   typescript: ^4.7.4
   vite: ^2.9.12
   vue: ^3.2.37
@@ -25,7 +25,7 @@ devDependencies:
   prettier: 2.7.1
   prettier-plugin-packagejson: 2.2.18_prettier@2.7.1
   prettier-plugin-tailwindcss: 0.1.11_prettier@2.7.1
-  tailwindcss: 3.1.3
+  tailwindcss: 3.1.4
   typescript: 4.7.4
   vite: 2.9.12
   vue-tsc: 0.38.1_typescript@4.7.4
@@ -1014,8 +1014,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /tailwindcss/3.1.3:
-    resolution: {integrity: sha512-PRJNYdSIthrb8hjmAyymEyEN8Yo61TMXpzyFUpxULeeyRn3Y3gpvuw6FlRTKrJvK7thSGKRnhT36VovVx4WeMA==}
+  /tailwindcss/3.1.4:
+    resolution: {integrity: sha512-NrxbFV4tYsga/hpWbRyUfIaBrNMXDxx5BsHgBS4v5tlyjf+sDsgBg5m9OxjrXIqAS/uR9kicxLKP+bEHI7BSeQ==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
