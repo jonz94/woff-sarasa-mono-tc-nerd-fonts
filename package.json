@@ -4,7 +4,8 @@
   "license": "Unlicense",
   "author": "jonz94 <jody16888@gmail.com>",
   "scripts": {
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vue-tsc --noEmit && vite build && pnpm run copy-shiki",
+    "copy-shiki": "bash copy-shiki.sh",
     "dev": "vite",
     "format": "prettier --write .",
     "serve": "vite preview",
