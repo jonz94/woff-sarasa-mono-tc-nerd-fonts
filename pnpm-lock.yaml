@@ -8,7 +8,7 @@ specifiers:
   prettier-plugin-packagejson: ^2.2.18
   prettier-plugin-tailwindcss: ^0.1.13
   shiki: ^0.10.1
-  tailwindcss: ^3.1.6
+  tailwindcss: ^3.1.8
   typescript: ^4.7.4
   vite: ^3.0.2
   vue: ^3.2.37
@@ -25,7 +25,7 @@ devDependencies:
   prettier: 2.7.1
   prettier-plugin-packagejson: 2.2.18_prettier@2.7.1
   prettier-plugin-tailwindcss: 0.1.13_prettier@2.7.1
-  tailwindcss: 3.1.6
+  tailwindcss: 3.1.8
   typescript: 4.7.4
   vite: 3.0.2
   vue-tsc: 0.39.0_typescript@4.7.4
@@ -749,8 +749,8 @@ packages:
     resolution: {integrity: sha512-fQzRfAbIBnR0IQvftw9FJveWiHp72Fg20giDrHz6TdfB12UH/uue0D3hm57UB5KgAVuniLMCaS8P1IMj9NR7cA==}
     dev: false
 
-  /lilconfig/2.0.5:
-    resolution: {integrity: sha512-xaYmXZtTHPAw5m+xLN8ab9C+3a8YmV3asNSPOATITbtwrfbwaLJj8h66H1WMIpALCkqsIzK3h7oQ+PdX+LQ9Eg==}
+  /lilconfig/2.0.6:
+    resolution: {integrity: sha512-9JROoBW7pobfsx+Sq2JsASvCo6Pfo6WWoUW79HuB1BCoBXD4PLWJPqDF6fNj67pqBYTbAHkE57M1kS/+L1neOg==}
     engines: {node: '>=10'}
     dev: true
 
@@ -880,7 +880,7 @@ packages:
       ts-node:
         optional: true
     dependencies:
-      lilconfig: 2.0.5
+      lilconfig: 2.0.6
       postcss: 8.4.16
       yaml: 1.10.2
     dev: true
@@ -1042,8 +1042,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /tailwindcss/3.1.6:
-    resolution: {integrity: sha512-7skAOY56erZAFQssT1xkpk+kWt2NrO45kORlxFPXUt3CiGsVPhH1smuH5XoDH6sGPXLyBv+zgCKA2HWBsgCytg==}
+  /tailwindcss/3.1.8:
+    resolution: {integrity: sha512-YSneUCZSFDYMwk+TGq8qYFdCA3yfBRdBlS7txSq0LUmzyeqRe3a8fBQzbz9M3WS/iFT4BNf/nmw9mEzrnSaC0g==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
@@ -1056,7 +1056,7 @@ packages:
       fast-glob: 3.2.11
       glob-parent: 6.0.2
       is-glob: 4.0.3
-      lilconfig: 2.0.5
+      lilconfig: 2.0.6
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.0.0
