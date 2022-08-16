@@ -1,7 +1,7 @@
 {
   "name": "serve-woff",
   "version": "0.1.0",
-  "license": "Unlicense",
+  "license": "0BSD",
   "author": "jonz94 <jody16888@gmail.com>",
   "scripts": {
     "build": "vue-tsc --noEmit && vite build && pnpm run copy-shiki",
