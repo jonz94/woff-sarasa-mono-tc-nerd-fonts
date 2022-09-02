@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "shiki": "^0.10.1",
-    "vue": "^3.2.37"
+    "vue": "^3.2.38"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.3",
