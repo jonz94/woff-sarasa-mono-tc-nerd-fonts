@@ -12,7 +12,7 @@
     "start": "npm run dev"
   },
   "dependencies": {
-    "shiki": "^0.10.1",
+    "shiki": "^0.11.1",
     "vue": "^3.2.38"
   },
   "devDependencies": {
