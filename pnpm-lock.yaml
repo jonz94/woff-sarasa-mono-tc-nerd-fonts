@@ -10,7 +10,7 @@ specifiers:
   shiki: ^0.10.1
   tailwindcss: ^3.1.8
   typescript: ^4.8.2
-  vite: ^3.0.8
+  vite: ^3.0.9
   vue: ^3.2.37
   vue-tsc: ^0.40.1
 
@@ -19,7 +19,7 @@ dependencies:
   vue: 3.2.37
 
 devDependencies:
-  '@vitejs/plugin-vue': 3.0.3_vite@3.0.8+vue@3.2.37
+  '@vitejs/plugin-vue': 3.0.3_vite@3.0.9+vue@3.2.37
   autoprefixer: 10.4.8_postcss@8.4.16
   postcss: 8.4.16
   prettier: 2.7.1
@@ -27,7 +27,7 @@ devDependencies:
   prettier-plugin-tailwindcss: 0.1.13_prettier@2.7.1
   tailwindcss: 3.1.8_postcss@8.4.16
   typescript: 4.8.2
-  vite: 3.0.8
+  vite: 3.0.9
   vue-tsc: 0.40.1_typescript@4.8.2
 
 packages:
@@ -86,14 +86,14 @@ packages:
     resolution: {integrity: sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA==}
     dev: true
 
-  /@vitejs/plugin-vue/3.0.3_vite@3.0.8+vue@3.2.37:
+  /@vitejs/plugin-vue/3.0.3_vite@3.0.9+vue@3.2.37:
     resolution: {integrity: sha512-U4zNBlz9mg+TA+i+5QPc3N5lQvdUXENZLO2h0Wdzp56gI1MWhqJOv+6R+d4kOzoaSSq6TnGPBdZAXKOe4lXy6g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 3.0.8
+      vite: 3.0.9
       vue: 3.2.37
     dev: true
 
@@ -1099,8 +1099,8 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite/3.0.8:
-    resolution: {integrity: sha512-AOZ4eN7mrkJiOLuw8IA7piS4IdOQyQCA81GxGsAQvAZzMRi9ZwGB3TOaYsj4uLAWK46T5L4AfQ6InNGlxX30IQ==}
+  /vite/3.0.9:
+    resolution: {integrity: sha512-waYABTM+G6DBTCpYAxvevpG50UOlZuynR0ckTK5PawNVt7ebX6X7wNXHaGIO6wYYFXSM7/WcuFuO2QzhBB6aMw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
