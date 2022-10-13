@@ -7,7 +7,7 @@
     "build": "vue-tsc --noEmit && vite build && pnpm run copy-shiki",
     "copy-shiki": "bash copy-shiki.sh",
     "dev": "vite",
-    "format": "prettier --write .",
+    "fmt": "prettier --write .",
     "serve": "vite preview",
     "start": "npm run dev"
   },
@@ -16,6 +16,7 @@
     "vue": "^3.2.40"
   },
   "devDependencies": {
+    "@types/prettier": "^2.7.1",
     "@vitejs/plugin-vue": "^3.1.2",
     "autoprefixer": "^10.4.12",
     "postcss": "^8.4.18",
