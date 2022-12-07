@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "shiki": "^0.11.1",
-    "vue": "^3.2.40"
+    "vue": "^3.2.45"
   },
   "devDependencies": {
     "@types/prettier": "^2.7.1",
