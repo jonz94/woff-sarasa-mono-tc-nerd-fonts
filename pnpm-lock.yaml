@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@types/prettier': ^2.7.1
   '@vitejs/plugin-vue': ^3.2.0
-  autoprefixer: ^10.4.12
+  autoprefixer: ^10.4.13
   postcss: ^8.4.18
   prettier: ^2.7.1
   prettier-plugin-packagejson: ^2.3.0
@@ -22,7 +22,7 @@ dependencies:
 devDependencies:
   '@types/prettier': 2.7.1
   '@vitejs/plugin-vue': 3.2.0_vite@3.1.7+vue@3.2.40
-  autoprefixer: 10.4.12_postcss@8.4.18
+  autoprefixer: 10.4.13_postcss@8.4.18
   postcss: 8.4.18
   prettier: 2.7.1
   prettier-plugin-packagejson: 2.3.0_prettier@2.7.1
@@ -270,15 +270,15 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /autoprefixer/10.4.12_postcss@8.4.18:
-    resolution: {integrity: sha512-WrCGV9/b97Pa+jtwf5UGaRjgQIg7OK3D06GnoYoZNcG1Xb8Gt3EfuKjlhh9i/VtT16g6PYjZ69jdJ2g8FxSC4Q==}
+  /autoprefixer/10.4.13_postcss@8.4.18:
+    resolution: {integrity: sha512-49vKpMqcZYsJjwotvt4+h/BCjJVnhGwcLpDt5xkcaOG3eLrG/HUYLagrihYsQ+qrIBgIzX1Rw7a6L8I/ZA1Atg==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.4
-      caniuse-lite: 1.0.30001418
+      caniuse-lite: 1.0.30001436
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -320,7 +320,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001418
+      caniuse-lite: 1.0.30001436
       electron-to-chromium: 1.4.280
       node-releases: 2.0.6
       update-browserslist-db: 1.0.10_browserslist@4.21.4
@@ -331,8 +331,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /caniuse-lite/1.0.30001418:
-    resolution: {integrity: sha512-oIs7+JL3K9JRQ3jPZjlH6qyYDp+nBTCais7hjh0s+fuBwufc7uZ7hPYMXrDOJhV360KGMTcczMRObk0/iMqZRg==}
+  /caniuse-lite/1.0.30001436:
+    resolution: {integrity: sha512-ZmWkKsnC2ifEPoWUvSAIGyOYwT+keAaaWPHiQ9DfMqS1t6tfuyFYoWR78TeZtznkEQ64+vGXH9cZrElwR2Mrxg==}
     dev: true
 
   /chokidar/3.5.3:
