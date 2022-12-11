@@ -9,7 +9,7 @@
     "dev": "vite",
     "fmt": "prettier --write .",
     "serve": "vite preview",
-    "start": "npm run dev"
+    "start": "pnpm run dev"
   },
   "dependencies": {
     "shiki": "^0.11.1",
