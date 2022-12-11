@@ -4,10 +4,11 @@
   "license": "0BSD",
   "author": "jonz94 <jody16888@gmail.com>",
   "scripts": {
-    "build": "vue-tsc --noEmit && vite build && pnpm run copy-shiki",
+    "build": "pnpm run copy-shiki && vue-tsc --noEmit && vite build",
     "copy-shiki": "bash copy-shiki.sh",
     "dev": "vite",
     "fmt": "prettier --write .",
+    "postinstall": "pnpm run copy-shiki",
     "serve": "vite preview",
     "start": "pnpm run dev"
   },

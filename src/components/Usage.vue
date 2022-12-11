@@ -89,7 +89,7 @@ const maxLengthOfSingleLineOfCode = Math.max.apply(
 )
 
 onMounted(async () => {
-  setCDN('/node_modules/shiki/')
+  setCDN('/shiki/')
 
   const highlighter = await getHighlighter({
     theme: 'one-dark-pro',

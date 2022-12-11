@@ -1,7 +1,11 @@
 #!/bin/bash
 
-mkdir -p dist/node_modules/shiki
+if [ -d public/shiki ]; then
+  exit 0
+fi
 
-cp -r -L node_modules/shiki/dist dist/node_modules/shiki/dist
-cp -r -L node_modules/shiki/languages dist/node_modules/shiki/languages
-cp -r -L node_modules/shiki/themes dist/node_modules/shiki/themes
+mkdir -p public/shiki
+
+cp -r -L node_modules/shiki/dist public/shiki/dist
+cp -r -L node_modules/shiki/languages public/shiki/languages
+cp -r -L node_modules/shiki/themes public/shiki/themes
